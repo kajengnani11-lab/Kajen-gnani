@@ -1,0 +1,21 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family:'Times New Roman', serif; 
+}
+
+.navbar .nav-link,
+.navbar .btn {
+    transition: transform 180ms ease, background-color 180ms ease, color 180ms ease;
+}
+
+.navbar-button-hover {
+    transform: translateY(-3px) scale(1.05);
+    background-color: #07677f !important;
+    color: white !important;
+    border-radius: 4px;
+}
